@@ -1,0 +1,56 @@
+  /* Navgation Bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* Body */
+  body {
+    background-color: rgb(40, 36, 36);
+  }
+
+  /* Justify + Align .content */
+  .content {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  /* o .nxt_task e o .nxt_task > object tão funcionando, n sei como, mas estão. NAO MEXE */
+  .nxt_task > object{
+    background-color: blue;
+    display: flex;
+    height: 900;
+    width: 800;  
+  }
+  .nxt_task{
+    justify-content: center;
+    align-items: top;
+  
+  }
+  .schedule > object {
+    width: 100%;
+  }
