@@ -1,0 +1,23 @@
+body {
+  color: blanchedalmond;
+  background-color: rgb(54, 54, 54);
+  font-family: serif;
+  font-size: 75px;
+  list-style-type: none;
+}
+
+.configs {
+  background-color: black;
+  width: 800px;
+  height: 890px;
+  border-radius: 10px;
+}
+
+a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.configs li a:hover {
+  color: blueviolet;
+}
