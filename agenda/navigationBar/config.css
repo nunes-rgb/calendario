@@ -1,23 +1,62 @@
 body {
-  color: blanchedalmond;
-  background-color: rgb(54, 54, 54);
-  font-family: serif;
-  font-size: 75px;
-  list-style-type: none;
+    background-color: rgb(99, 99, 99);
+    font-family: serif;
+    font-size: 75px;
+    padding: 10px 10px;
 }
 
-.configs {
-  background-color: black;
-  width: 800px;
-  height: 890px;
-  border-radius: 10px;
+ul{
+    list-style-type: none;
 }
 
-a {
-  color: blanchedalmond;
-  text-decoration: none;
+.hyperlinks {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.configs li a:hover {
-  color: blueviolet;
+a{
+    color: rgb(96, 95, 95);
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.geral {
+    background-color: white;
+    width: 10px;
+    height: 100px;
+    padding: 10px 100px;
+}
+
+.sobre {
+    background-color: white;
+    width: 10px;
+    height: 100px;
+    padding: 10px 100px;
+}
+
+.ajuda {
+    background-color: white;
+    width: 10px;
+    height: 100px;
+    padding: 10px 100px;
+}
+
+.tema {
+    background-color: white;
+    width: 10px;
+    height: 100px;
+    padding: 10px 100px;
+}
+
+.conta {
+    background-color: white;
+    width: 10px;
+    height: 100px;
+    padding: 10px 100px;    
+}
+
+li a:hover {
+    color:blueviolet ;
 }
